@@ -16,3 +16,4 @@ jobs:
       - name: Install Gradle
         run: apt install gradle
       - name: Build the holy source code
+        run: gradle build
